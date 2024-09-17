@@ -1,0 +1,25 @@
+{
+  "name": "selenium-webdriver-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --timeout 5000 --file test/support/hooks.mjs 'test/**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/chai": "^4.3.19",
+    "@types/mocha": "^10.0.8",
+    "@types/node": "^22.5.4",
+    "chai": "^5.1.1",
+    "chromedriver": "^128.0.3",
+    "selenium-webdriver": "^4.24.1"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.26",
+    "mocha": "^10.7.3"
+  }
+}
